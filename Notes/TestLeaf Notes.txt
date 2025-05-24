@@ -1,0 +1,89 @@
+Jenkins:
+==========
+- Download and install Jenkins from the official site. (Jenkins.war file)
+- Start Jenkins using the command: java -jar jenkins.war
+- Access Jenkins via http://localhost:8080 and complete the setup.
+Username : Admin and password would be the from the C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword
+
+Create a Jenkins Job
+- Click New Item in Jenkins.
+- Select Freestyle Project and name it.
+- In the Build Steps, choose Execute Windows Batch Command or Execute Shell (for Linux).
+- Add the command to run JMeter tests:
+C:\JmeterSoftware\apache-jmeter-5.5\apache-jmeter-5.5\bin\jmeter -n -t C:\Jmeterscrits\webtour-flightbooking.jmx -l C:\Jmeterscrits\Results\05172025Log.jtl -e -o C:\Jmeterscrits\Reports
+
+
+
+Install Java:
+=============
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+
+
+JMX merge:
+==========
+- Open Apache JMeter on your system.
+- Click on File -> Merge from the menu bar.
+- Select the JMX file you want to merge with the existing script.
+- JMeter will add the elements of the second script to the current test plan.
+- Adjust the merged components, ensuring there are no duplicate configurations like HTTP requests, listeners, or variables.
+- Save the final merged script with a new name to avoid overwriting your original files.
+Manually Merging by Copy-Pasting:
+- Open the first JMX script in JMeter.
+- Open the second JMX file in another JMeter instance.
+- Copy elements (like Thread Groups, Samplers, Controllers) from one script.
+- Paste them into the main script's Test Plan.
+- Ensure all config elements (such as HTTP Header Managers, Cookie Managers) align properly to avoid conflicts.
+- Save the updated script and test it for consistency.
+Two options, either one can be picked
+
+
+
+
+Topics covered:
+===============
+Day 1 
+   -> Fundamentals - Discussed all the use cases from the projects that we run 
+   -> GooglehomePage JMX
+Day 2
+   -> Components, uses, Dev tools
+   -> PayPal practice
+   -> JSON Extractor Post processor
+Day 3
+   ->JMeter Recording
+   -> Pass variables btw TG
+Day 4
+    -> Blazemeter Recording
+    -> Blazemeter vs Jmeter
+    -> Boundary Extractor
+    -> DataDriven through CSV, Random input, jmeter plugin
+Day 5
+     -> WebTour practice
+     -> Correlation, If Controller
+     -> Constant timer
+Day 6 
+    -> Workload and think time calculation
+    -> JMX merge and see aggregate report
+
+Day 7:
+   -> Version control GitLab practice
+   -> Set property and Read property using Function helper dialogue
+   -> Selenium integration in Jmeter 
+
+Day 8:
+ 1. How to run different tests - Endurance, stress etc
+2. Thread Group with Ramp up and ramp down
+3. Analysis 
+4. Grafana Implementation 
+
+
+
+=============
+1 - JSR 223 - Mentioned in the session on functions that will be covered next week
+ 4. Today, we have done Load, when you increase the hours instead of 1 hour to longer hours or increase the workload, it will be stress test(we have discussed, if you need more details, lets discuss in the session) 
+5) Jenkins integration is completed, we will integrate Grafana, can cover next week. 
+6)Along with this, as I told, Analysis ..
+7)Thread and Heap dump 
+8)and JVM garbage collection are additional areas to be focused.
+
+
