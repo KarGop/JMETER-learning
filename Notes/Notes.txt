@@ -1,0 +1,22 @@
+========================
+JENKINS
+=========================
+java -jar jenkins.war --enable-future-java --httpPort=8081
+
+ jmeter -n -t D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\TP_Day5_WebTour.jmx -l D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\\Results\05172025Log.jtl -e -o D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\Reports
+
+========================
+Git
+=========================
+git clone https://gitlab.com/nsath.n-group/mayjmeter.git
+
+git config --global core.autocrlf input
+
+git add C:\Users\Admin\mayjmeter\Calci_OpenWeathertest.jmx
+
+git commit -m "Added JMeter test script"
+
+git push origin main
+
+
+============================

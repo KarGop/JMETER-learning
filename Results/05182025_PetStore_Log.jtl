@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1747540520922,1305,https://petstore.octoperf.com/,200,,Thread Group 1-1,text,true,,1452,502,1,1,https://petstore.octoperf.com/,1286,0,1098
+1747540520822,1305,HomePage_01,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1452,502,1,1,null,1286,136,1098
+1747540522269,172,https://petstore.octoperf.com/actions/Catalog.action,200,,Thread Group 1-1,text,true,,5664,524,1,1,https://petstore.octoperf.com/actions/Catalog.action,169,0,0
+1747540522266,172,EntertheStore_02,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5664,524,1,1,null,169,20,0
+1747540522464,170,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS,200,,Thread Group 1-1,text,true,,4212,607,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,168,0,0
+1747540522459,170,ClickAnyPet_03,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4212,607,1,1,null,168,14,0
+1747540522647,165,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FL-DLH-02,200,,Thread Group 1-1,text,true,,4136,609,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-DL-01,164,0,0
+1747540522644,165,ClickAnyProductId_04,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4136,609,1,1,null,164,6,0
+1747540522818,161,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-16,200,,Thread Group 1-1,text,true,,4677,609,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-9,160,0,0
+1747540522815,161,ClickAddToCart_05,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4677,609,1,1,null,160,6,0
+1747540522985,163,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,200,,Thread Group 1-1,text,true,,4222,589,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,162,0,0
+1747540522983,163,ClickProceedToCheckout_06,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4222,589,1,1,null,162,5,0

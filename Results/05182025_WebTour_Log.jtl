@@ -1,0 +1,29 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1747538424486,83,http://localhost:1080/WebTours/,200,OK,Thread Group 1-1,text,true,,664,504,1,1,http://localhost:1080/WebTours/,77,0,42
+1747538424584,6,http://localhost:1080/WebTours/header.html,200,OK,Thread Group 1-1,text,true,,1007,515,1,1,http://localhost:1080/WebTours/header.html,6,0,0
+1747538424594,167,http://localhost:1080/cgi-bin/welcome.pl?signOff=true,200,OK,Thread Group 1-1,text,true,,1025,526,1,1,http://localhost:1080/cgi-bin/welcome.pl?signOff=true,157,0,0
+1747538424765,279,http://localhost:1080/cgi-bin/nav.pl?in=home,200,OK,Thread Group 1-1,text,true,,1748,545,1,1,http://localhost:1080/cgi-bin/nav.pl?in=home,277,0,0
+1747538425048,86,http://localhost:1080/WebTours/home.html,200,OK,Thread Group 1-1,text,true,,1659,541,1,1,http://localhost:1080/WebTours/home.html,86,0,0
+1747538424388,621,WT_HomePage_01,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,6103,2631,1,1,null,603,126,42
+1747538425137,184,http://localhost:1080/cgi-bin/login.pl,200,OK,Thread Group 1-1,text,true,,853,735,1,1,http://localhost:1080/cgi-bin/login.pl,179,0,0
+1747538425328,200,http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home,200,OK,Thread Group 1-1,text,true,,1749,667,1,1,http://localhost:1080/cgi-bin/nav.pl?in=home&page=menu,194,0,0
+1747538425530,225,http://localhost:1080/cgi-bin/login.pl?intro=true,200,OK,Thread Group 1-1,text,true,,1162,662,1,1,http://localhost:1080/cgi-bin/login.pl?intro=true,222,0,0
+1747538425136,609,WT_ClickLogin_02,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3764,2064,1,1,null,595,12,0
+1747538425760,208,http://localhost:1080/cgi-bin/welcome.pl?page=search,200,OK,Thread Group 1-1,text,true,,843,665,1,1,http://localhost:1080/cgi-bin/welcome.pl?page=search,205,0,0
+1747538425971,170,http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights,200,OK,Thread Group 1-1,text,true,,1749,670,1,1,http://localhost:1080/cgi-bin/nav.pl?in=flights&page=menu,166,0,0
+1747538426143,199,http://localhost:1080/cgi-bin/reservations.pl?page=welcome,200,OK,Thread Group 1-1,text,true,,4520,671,1,1,http://localhost:1080/cgi-bin/reservations.pl?page=welcome,194,0,0
+1747538425758,577,WT_ClickFlights_03,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7112,2006,1,1,null,565,8,0
+1747538426343,229,http://localhost:1080/cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2705,950,1,1,http://localhost:1080/cgi-bin/reservations.pl,224,0,0
+1747538426343,229,WT_FindFlights_04,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2705,950,1,1,null,224,2,0
+1747538426576,158,http://localhost:1080/cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2958,875,1,1,http://localhost:1080/cgi-bin/reservations.pl,156,0,0
+1747538426574,158,WT_SelectFlights_05,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2958,875,1,1,null,156,3,0
+1747538426736,241,http://localhost:1080/cgi-bin/reservations.pl,200,OK,Thread Group 1-1,text,true,,2849,1027,1,1,http://localhost:1080/cgi-bin/reservations.pl,235,0,0
+1747538426735,241,WT_PassengerDtailsAndCont_06,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2849,1027,1,1,null,235,2,0
+1747538426979,192,http://localhost:1080/cgi-bin/welcome.pl?page=menus,200,OK,Thread Group 1-1,text,true,,823,640,1,1,http://localhost:1080/cgi-bin/welcome.pl?page=menus,188,0,0
+1747538427173,214,http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home,200,OK,Thread Group 1-1,text,true,,1749,643,1,1,http://localhost:1080/cgi-bin/nav.pl?in=home&page=menu,210,0,0
+1747538427391,212,http://localhost:1080/cgi-bin/login.pl?intro=true,200,OK,Thread Group 1-1,text,true,,1162,638,1,1,http://localhost:1080/cgi-bin/login.pl?intro=true,207,0,0
+1747538426978,618,WT_Home_07,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3734,1921,1,1,null,605,10,0
+1747538427607,221,http://localhost:1080/cgi-bin/welcome.pl?signOff=1,200,OK,Thread Group 1-1,text,true,,1025,639,1,1,http://localhost:1080/cgi-bin/welcome.pl?signOff=1,216,0,0
+1747538427830,207,http://localhost:1080/cgi-bin/nav.pl?in=home,200,OK,Thread Group 1-1,text,true,,1753,545,1,1,http://localhost:1080/cgi-bin/nav.pl?in=home,203,0,0
+1747538428039,47,http://localhost:1080/WebTours/home.html,304,Not Modified,Thread Group 1-1,,true,,193,641,1,1,http://localhost:1080/WebTours/home.html,0,0,0
+1747538427606,475,WT_ClickSignOff_08,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2971,1825,1,1,null,419,6,0
