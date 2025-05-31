@@ -1,0 +1,17 @@
+12d06f6d9ae142399739214cf4dc791c
+
+
+java -jar jenkins.war --enable-future-java --httpPort=8081
+
+ jmeter -n -t D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\TP_Day5_WebTour.jmx -l D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\\Results\05172025Log.jtl -e -o D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\Reports
+
+
+jmeter -n -t D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\TP_Day4_PetStore_BoundaryExtractor.jmx -l D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\Results\05182025_Log1.jtl -e -o D:\Karthika\Jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\Practice\Reports
+
+
+If Controller:
+true
+${__groovy("${C_Depart}".equals("${C_Arrival}"))}
+${__groovy(vars.get("runExtractor") == "true")}
+
+

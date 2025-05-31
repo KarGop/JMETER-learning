@@ -76,13 +76,13 @@ Day 8:
 3. Analysis 
 4. Grafana Implementation 
 
-
-
-=============
-1 - JSR 223 - Mentioned in the session on functions that will be covered next week
- 4. Today, we have done Load, when you increase the hours instead of 1 hour to longer hours or increase the workload, it will be stress test(we have discussed, if you need more details, lets discuss in the session) 
-5) Jenkins integration is completed, we will integrate Grafana, can cover next week. 
-6)Along with this, as I told, Analysis ..
+Day 9:
+1. Dynatrace overview 
+2. Thread and Heap dump discussions, 
+3. TOP 15 Interview questions 
+4. Distributed test Overview...
+============= 
+Thread Group with Ramp up and ramp down
 7)Thread and Heap dump 
 8)and JVM garbage collection are additional areas to be focused.
 
